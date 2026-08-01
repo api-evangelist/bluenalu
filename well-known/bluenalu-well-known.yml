@@ -1,0 +1,33 @@
+generated: '2026-07-31'
+method: probed
+source: live HTTPS probes of the BlueNalu web host
+host: https://www.bluenalu.com
+note: >-
+  All /.well-known/ paths were probed and returned HTTP 404. The host is a Webflow
+  marketing site that answers "Invalid .well-known request" with an HTML body for
+  every /.well-known/* path, so no discovery document is published. No API, docs,
+  or MCP subdomain exists to probe (api./developer./docs./app./mcp./portal. all
+  NXDOMAIN). Recorded as a negative result — no WellKnown or SecurityTxt pointer is
+  wired because nothing was found.
+documents: []
+probed:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+x-evidence:
+  fetched: '2026-07-31'
+  hosts:
+  - www.bluenalu.com
+  - bluenalu.com
+  content_type: text/html; charset=utf-8

@@ -1,0 +1,36 @@
+# BlueNalu
+
+> BlueNalu, Inc. is a San Diego, California cellular aquaculture company founded in 2017 that produces cell-cultivated seafood — real seafood grown directly from fish cells rather than harvested from the ocean — beginning with cell-cultivated bluefin tuna toro for premium foodservice operators. BlueNalu is a food and biotechnology producer and publishes no public API, developer portal, or machine-readable contract.
+
+## Company
+
+- [BlueNalu](https://www.bluenalu.com/): Company website and product overview.
+- [Our Story](https://www.bluenalu.com/our-story): Founding, mission, and San Diego operations.
+- [Our Bluefin](https://www.bluenalu.com/our-bluefin): The cell-cultivated bluefin tuna toro product.
+- [FAQs](https://www.bluenalu.com/frequently-asked-questions): Questions about cell-cultivated seafood.
+- [Contact](https://www.bluenalu.com/contact): Contact the company.
+
+## News
+
+- [News](https://www.bluenalu.com/news): Company news coverage.
+- [Press Releases](https://www.bluenalu.com/press-releases): Official announcements, including financing and commercialization milestones.
+
+## Legal
+
+- [Terms & Conditions](https://www.bluenalu.com/terms-conditions)
+- [Privacy Policy](https://www.bluenalu.com/privacy-policy)
+- [Cookie Policy](https://www.bluenalu.com/cookie-policy)
+
+## APIs
+
+BlueNalu publishes no API. As of 2026-07-31 the API Evangelist enrichment pipeline probed the
+web host for OpenAPI (`/openapi.json`, `/swagger.json`, `/api-docs`), for every `/.well-known/`
+discovery document, for an A2A agent card at both `/.well-known/agent-card.json` and the legacy
+`/.well-known/agent.json`, for an `llms.txt`, and for API/docs/MCP subdomains — all missed, and
+no first-party client library exists on npm, PyPI, RubyGems, or crates.io, nor a GitHub
+organization. This file is generated from the API Evangelist catalog record, not published by
+BlueNalu.
+
+## Optional
+
+- [API Evangelist catalog record](https://raw.githubusercontent.com/api-evangelist/bluenalu/refs/heads/main/apis.yml)
