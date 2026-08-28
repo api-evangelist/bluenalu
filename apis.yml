@@ -12,6 +12,17 @@ description: 'BlueNalu, Inc. is a San Diego, California cellular aquaculture com
   to the National Fisheries Institute. BlueNalu is a food and biotechnology producer;
   it publishes a marketing website and no public developer or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/bluenalu/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/69586681dfbbcb0713825a01/696460806a7c8b251d5ae895_Blue%20Nalu%20Webclip.png
 x-type: company
 x-source: harvest:secondary-market
