@@ -64,18 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BlueNalu, Inc. is a San Diego, California cellular aquaculture company founded in 2017 by Lou Cooperhouse, Chris Somogyi and Chris Dammann that produces cell-cultivated seafood — real seafood grown directly from fish cells rather than harvested from the ocean. Its lead product is cell-cultivated bluefin tuna toro, targeted first at premium foodservice operators in the United States.
+BlueNalu, Inc. is a San Diego, California cellular aquaculture company founded in 2017 by Lou Cooperhouse, Chris Somogyi and Chris Dammann that produces cell-cultivated seafood — real seafood grown directly from fish cells rather than harvested from the ocean. Its lead product is cell-cultivated bluefin tuna toro, marketed as "Seafood Without Compromise", targeted first at premium foodservice operators in the United States and then internationally. The company has raised approximately $84 million to date, including a Series B and a December 2025 insider-led convertible note and preferred stock financing led by Agronomics, Siddhi Capital and Lewis & Clark AgriFood, and was the first cell-cultivated seafood company admitted to the National Fisheries Institute. BlueNalu is a food and biotechnology producer; it publishes a marketing website and no public developer or API surface.
 
-- Website: https://www.bluenalu.com/
-- Our Story: https://www.bluenalu.com/our-story
-- News: https://www.bluenalu.com/news
-- Press Releases: https://www.bluenalu.com/press-releases
-- Secondary-market listing: https://forgeglobal.com/bluenalu_stock/
+**Areas:** Company · Cellular Agriculture · Cell-Cultivated Seafood · Alternative Protein · Food Technology · Biotechnology · Aquaculture · Sustainability
 
-## API surface
+## BlueNalu on APIs.io
 
-None. As of 2026-07-31 the enrichment pipeline probed the web host for OpenAPI/Swagger, every
-`/.well-known/` discovery document, an A2A agent card at both the canonical and legacy paths,
-`llms.txt`, and API/docs/MCP subdomains — all missed. No first-party client library exists on
-npm, PyPI, RubyGems or crates.io, and there is no GitHub organization. BlueNalu is a food and
-biotechnology producer, not an API provider.
+Everything profiled for BlueNalu is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bluenalu/](https://apis.io/providers/bluenalu/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bluenalu Domain Security](https://apis.io/security/bluenalu/bluenalu-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bluenalu.com/)
+- [Terms of service](https://www.bluenalu.com/terms-conditions)
+- [Privacy policy](https://www.bluenalu.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 9.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bluenalu/](https://apis.io/providers/bluenalu/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BlueNalu: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bluenalu/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
